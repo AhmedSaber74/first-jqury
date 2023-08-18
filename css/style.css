@@ -1,0 +1,139 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+.HomeOverlay{
+
+ background-image:linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) ,url(../img/events-heavenly-header.jpg); 
+height: 90vh;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 100% 100% ;
+color: white;
+transition: all 0.5s;
+
+}
+
+#home-content 
+{
+    padding-top: 20%;
+}
+
+#Home h2, p {
+    text-align: center;
+}
+
+#Home h2
+{
+    font-size: 60px;
+}
+
+ a:hover
+{
+
+    color:rgba(214, 46, 51 , 0.6) !important;
+
+}
+
+
+.singers p
+{
+    margin: 0px;
+    background-color: rgb(185, 170, 170);
+
+}
+.singers h1 
+{
+    background-color: rgb(238, 121, 141);
+    font-size: xx-large;
+    color: white;
+    cursor: pointer;
+
+} 
+.singers div{
+    margin: 0px;
+}
+.slider-bg
+{
+    background-color: rgb(238, 121, 141);
+}
+
+
+#sliderDown p 
+{
+
+    display: none;
+
+}
+.counter-overlay
+{
+    background-image:linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) ,url(../img/invitation-2508607__340.jpg); 
+    height: 330px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100% ;
+
+}
+
+.tim {
+    /* padding: 20%; */
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+    
+/*  background-image:linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) ,url(../img/events-heavenly-header.jpg); 
+ */
+
+#contact-us .con-info .social-list i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+
+#contact-us .con-info .social-list i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+
+#leftMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
